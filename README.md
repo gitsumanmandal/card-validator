@@ -30,7 +30,7 @@ Then hit `localhost:5000\workspace\entrypoint-view` into any browser to launch t
 2. replace all the occurrence of `https://card-validator-application.herokuapp.com` to `localhost:5000`. The GIT code is deployed in heroku, hence you need to change the host details. Remember, in your case, the localhost PORT may differ (5000 is hard coded). Please see app.js for HOST PORT configuration
 
 # Deployed Live
-You may find the deployed product [HERE](https://card-validator.herokuapp.com/workspace/entrypoint-view/) <br/>
+You may find the deployed product [HERE](https://card-validator-application.herokuapp.com/workspace/entrypoint-view/) <br/>
 This is a Free Heroku App Server
 
 # Summary
