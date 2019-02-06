@@ -1,0 +1,31 @@
+<div ng-controller="formController" ng-init="formLoaded()">
+
+    <div class="row">
+        <!--Start of cardNo -->
+        <div class="col-md-4 col-lg-4 cz-margin-bottom-15">
+            <div class="row">
+                <div class="col-md-3 col-lg-3">
+                    <label for="cardNo" ng-bind="resourceObject.cardNumber"></label>
+                </div>
+                <div class="col-md-9 col-lg-9">
+                    <input type="text" class="form-control" id="cardNo" ng-model="cardNo" required>
+                </div>
+            </div>
+            <div class="row margin-top-10">
+                <div class="col-md-3 col-lg-3">
+                </div>
+                <div class="col-md-9 col-lg-9">
+                    <button type="submit" class="button-property btn btn-primary" ng-click="submit()">
+                        <label ng-bind="resourceObject.submit"></label>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8 col-lg-8 cz-margin-bottom-15">
+            <img ng-show="isValid" class="card-logo" id="card-image" src="#">
+            <label ng-show="notValid" class="card-logo" id="card-image">INVALID CARD NUMBER</label>
+        </div>
+        <!--End of cardNo -->
+    </div>
+
+</div>
