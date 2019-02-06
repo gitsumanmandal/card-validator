@@ -23,7 +23,7 @@ app.controller('formController', function ($scope, $http) {
             params: data,
             headers: { 'Accept': 'application/json' }
         };
-        $http.get("http://localhost:5000/validate", config).then(function (response) {
+        $http.get("https://card-validator-application.herokuapp.com//validate", config).then(function (response) {
             if (response.data.status == "valid") {
                 self.isValid = true;
                 self.notValid = false;
