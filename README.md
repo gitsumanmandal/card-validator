@@ -2,7 +2,7 @@
 An application to validate credit card numbers which is basically an implementation of Luhn Algorithm
 
 # Technology Stack
-For front end development, normal HTML, CSS, JS, JQuery is ther, along with MVC architecture, Angular JS, Bootstrap.
+For front end development, normal HTML, CSS, JS, JQuery is there, along with MVC architecture, Angular JS, Bootstrap.
 
 For backend development, Node JS is used, with Express JS framework.
 
